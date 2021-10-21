@@ -1,0 +1,219 @@
+
+button.dogeee{
+    border-radius:9px;
+    height:60px;
+    width:135px;
+    float: center;
+    font-size:31px;
+    font-family:Comic Sans MS;
+    background:lime;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    box-shadow:0 9px limegreen;
+    transition-duration: 0.3s;
+  }
+  button.dogeee:hover{
+    background:limegreen;
+    box-shadow:0 9px green;
+    cursor:pointer;
+  }
+  button.dogeee:active{
+    box-shadow:0 6px darkgreen;
+    transform: translateY(4.5px);
+  }
+  #dogeee{
+    text-align:center;
+  }
+  
+  span.d{
+    color:darkviolet;
+    background:inherit;
+    font-family:Comic Sans Ms;
+  }
+  span.o{
+    color:blue;
+    background:inherit;
+    font-family:Comic Sans Ms;
+  }
+  span.g{
+    color:green;
+    background:inherit;
+    font-family:Comic Sans Ms;
+  }
+  span.e{
+    color:red;
+    background:inherit;
+    font-family:Comic Sans Ms;
+  }
+  #flag{
+    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Half_USA_Half_CSA_Flag.png/800px-Half_USA_Half_CSA_Flag.png) no-repeat;
+    background-size: 300px 100px;
+    animation-name: dixie;
+    animation-duration: 4s;
+    
+    height:20em;
+    width:20em;
+    position:absolute;
+    top :0px;
+    opacity:0%;
+  }
+  
+  @keyframes dixie{
+    0%{
+      top : 0px;
+      opacity:0%;
+    }
+    /*disabled, change opacity to 100% to enable*/
+    100%{
+      top:100px;
+      opacity:0%;
+    }
+  }
+  #thiccfork{
+    background:url(https://img.pngio.com/forks-png-images-free-fork-picture-download-fork-png-png-1200_1200.png) no-repeat;
+    background-size: 1300px 400px;
+    animation-name: thiccfork;
+    animation-duration: 1.8s;
+    animation-iteration-count:infinite;
+    position:relative;
+  
+    margin:auto;
+    height:350px; 
+    width:1300px;
+  
+    color:pink;
+    font-size:10px;
+  }
+  @keyframes thiccfork{
+    0%{
+      top:50px;
+      opacity:0%;
+    }
+    10%{
+      top:50px;
+      opacity:100%;
+    }
+    90%{
+      top:0px;
+      opacity:100%;
+    }
+    100%{
+      top:0px;
+      opacity:0%;
+    }
+  }
+  img.doge{
+    position:absolute;
+    float: right;
+    height:50px;
+    width:80px;
+    top:0px;
+    right:0px;
+    animation-name:doge;
+    animation-duration: 1.3s;
+    animation-iteration-count:infinite;
+  }
+  @keyframes doge{
+    0%{
+      filter:hue-rotate(0deg);
+      height:50px;
+      width:50px;
+    }
+    50%{
+      filter:hue-rotate(180deg);
+      height:180px;
+      width:180px;
+  
+    }
+    100%{
+      filter:hue-rotate(360deg);
+      height:50px;
+      width:50px;
+    }
+  }
+  h1.i{
+    margin-left:50vh;
+    margin-top:5vh;
+    margin-bottom:0;
+    color:darkolivegreen;
+    font-size:121.69px;
+    font-family:Comic Sans MS;
+    background:hotpink;
+  }
+  h1.ATE{
+    margin-left:5vh;
+    margin-top:0vh;
+    margin-bottom:0vh;
+    color:indigo;
+    font-size:121.69px;
+    font-family:Papyrus, Comic Sans MS;
+    background:hotpink;
+  }
+  h1.yourDOG{
+    margin-left:21vh;
+    margin-top:0vh;
+    margin-bottom:0vh;
+    color: chocolate;
+    font-size:121.69px;
+    font-family:Comic Sans MS;
+    background:hotpink;
+  }
+  span{
+    font-family:Papyrus, Comic Sans MS;
+    color:crimson;
+    background:hotpink;
+  }
+  body{
+    background:hotpink;
+  }
+  img.dogyum{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:-50px;
+    display:block;
+  }
+  img.thiccfork{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+  p.googletranslated{
+    background:lime;
+    text-align:right;
+    margin-top:50px;
+    border:gold solid 5px;
+  }
+  p.kim{
+    background:gold;
+    color:darkslategray;
+    font-size:600px;
+    font-style:bold;
+  }
+  img.thisisdinner{
+    margin-bottom:-169px;
+    z-index:0;
+    position:relative;
+  }
+  img.thisisdinnerpan{
+    z-index:1;
+    position:relative;
+    margin-left:70px;
+    margin-top:20px;
+  }
+  hr{
+    border:none;
+  }
+  p.credits{
+    font-size:12px;
+    border:1px solid black;
+  }
+  h1.skadosh{
+    color:aqua;
+    
+  }
+  img.dogee{
+    width: 690px;
+    height:690px;
+    border: 6.9px chartreuse inset;
+  }
